@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import Link from 'next/link'
 // Bileşenin bağlantısı kaldırıldığında/unmounted uygulamamızın state'i güncellemesini durdurmak için useEffect'teki cleanup fonksiyonunu kullanın
 export default function App() {
   return (
