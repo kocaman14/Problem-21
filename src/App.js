@@ -18,7 +18,8 @@ export default function App() {
           <Route path='/' element={<MousePosition />} />
           <Route
             path='/about'
-            element={<h1>Mouse'unuzu takip edin!</h1>}
+            element={<h1>Mouse&apos;unuzu takip edin!</h1>
+}
           />
         </Routes>
       </BrowserRouter>
